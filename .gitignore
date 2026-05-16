@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Build output (Railway runs npm run build)
+dist/
+
+# Environment variables (set via Railway dashboard)
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Playwright screenshots
+.playwright-mcp/
